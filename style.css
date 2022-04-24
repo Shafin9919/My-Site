@@ -143,12 +143,14 @@ header h1{
     font-family: 'Lato', sans-serif;
     color:#3691e6;
 }
-.button{
-    width:120px;
-    height:50px;
-    font-size:.8rem;
-    background-color:  rgb(34, 55, 177);
-    color:rgb(134, 224, 252)
+.button {
+    width: 120px;
+    height: 50px;
+    font-size: .8rem;
+    background-color: rgb(59 60 255 / 44%);
+    color: rgb(54 84 195);
+    border: none;
+    border-radius: 2px;
 }
 button:hover{
     color: gainsboro;
@@ -156,8 +158,10 @@ button:hover{
 
 }
 #footer a:hover{
-    color: rgb(118, 117, 218);
+    color: rgb(48 56 159);
 }
+#footer a:nth-child(2):hover{
+color: rgb(207 78 78);
 body{
     min-width: 600px;
 }
